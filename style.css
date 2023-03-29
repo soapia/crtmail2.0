@@ -1,0 +1,128 @@
+  @import url("https://use.typekit.net/fzc3led.css");
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+body {
+  text-align: center;
+  background-image: url("chalkboard.jpg");
+  background-size: cover;
+  color: white;
+  margin: 0;
+  font-family: 'Pangolin', cursive;
+  
+}
+/* Header */
+header{
+  background-color: white;
+    background: url("notebook-paper.png") bottom;
+  padding: 2em 0em 3em 0em;
+  border-radius: 0;
+  position: relative;
+  margin-bottom: 0px;
+}
+
+/* Info Section */
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#logo{
+  display: flex;
+  justify-content: center;
+}
+
+#logo img{
+  height: 70px;
+}
+
+/* Logo */
+h1 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 70px;
+  line-height: 80%;
+  font-family: "bowman", serif;
+  font-weight: 400;
+  font-style: normal;
+  color:  #eb5e00;
+  
+}
+
+/* Subheading */
+h5 {
+   font-size: 22px;
+   color: #262626;
+  margin-top: 0px;
+   padding:10px;
+/*   font-family: 'Pangolin', cursive; */
+  letter-spacing: 1.5px;
+
+}
+
+/* All info text */
+p {
+  max-width: 900px;
+  text-align: center;
+  margin: 10px 20px;
+  font-family: 'Pangolin', cursive;
+  letter-spacing: 1.25px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+p:last-of-type {
+font-size: 18px;
+}
+
+button{
+  text-decoration: none;
+  background-color:  #eb5e00;;
+  color: white;
+  margin: 15px 0;
+  font-size: 20px;
+  padding: 5px 30px;
+  border: none;
+  border-radius: 50px;
+  font-family: 'Pangolin', cursive;
+  box-shadow: 3px 3px 2px #182624;
+}
+
+button:hover{
+    background-color: #a34100;
+  transition: .2s;
+  transform: translate(1px, 1px);
+  box-shadow: none;
+}
+
+a{
+    color: #FFE66D;
+}
+
+@media only screen and (max-width: 650px) {
+
+  body{
+    background-size: initial;
+  }
+  h1{
+    font-size: 70px;
+  }
+
+  h5{
+    font-size: 20px;
+  }
+
+  p{
+    line-height: 35px;
+  }
+
+  #logo img{
+  height: 70px;
+}
+
+  .info{
+    margin-bottom: 10px;
+  }
+
+} 
